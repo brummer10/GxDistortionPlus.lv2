@@ -192,7 +192,7 @@ Gx_DistortionPlus_::Gx_DistortionPlus_() :
   DistortionPlus(DistortionPlus::plugin()),
   DistortionPlusPlus(DistortionPlusPlus::plugin()),
   bypass(0),
-  bypass_(0),
+  bypass_(2),
   bassboost(0),
   bassboost_(0),
   needs_ramp_down(false),
